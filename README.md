@@ -215,14 +215,16 @@ Imagenes del código de la primera placa:
 ## Diagrama en Nodered
 ![imagen](https://github.com/user-attachments/assets/24af3c54-0835-4ef1-b902-bf96b89a3005)
 
-## Video Demostrativo del proyecto.
-
 
 
 ## Examenes de Javascript
 ![imagen](https://github.com/user-attachments/assets/b216fe42-acf8-402f-950f-3da02759e223)
 
 
+## Video del proyecto en pleno funcionamiento del proyecto. 
+https://drive.google.com/drive/folders/1-Dx3WQTrWNuALlekcHw3uZtqv-OO8vwD?usp=sharing
+
+## Videos de los trabajos hechos en clase 
 
 
 
