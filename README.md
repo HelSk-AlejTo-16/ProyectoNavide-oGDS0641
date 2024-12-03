@@ -185,5 +185,44 @@ Este es el repositorio de documentación de nuestro proyecto final de IoT de Leo
 
 ![Sin título](https://github.com/user-attachments/assets/e65f2ca5-9e53-4873-a90d-18d3545d69d2)
 
+## Comunicación
+El proyecto cuenta con un sensor de distancia que al detectar un objeto cerca de él activará el mecanismo que cuenta con el buzzer, la estrella, las luces interiores y un motor con el cual se abrirá un regalo. Esto en secuencia.
+Mientras que Gracias a NodeRed en las pantallas Matrix 8x8, al recibir una señal de NodeRed al igual que las luces principales.
+
+## Código Python
+
+Imagenes del código de la primera placa:
+![imagen](https://github.com/user-attachments/assets/f166a3cd-9160-472d-a581-358db84ff9cd)
+![imagen](https://github.com/user-attachments/assets/fa932fba-476f-4c68-a114-238f67e15d26)
+![imagen](https://github.com/user-attachments/assets/69065cf0-57aa-4933-b066-e58e6252c5bc)
+![imagen](https://github.com/user-attachments/assets/597fd2d4-bbcd-42c5-bcc7-3e6aedce0dfb)
+![imagen](https://github.com/user-attachments/assets/7645d77b-a3b7-4d0b-9947-8475567fe218)
+
+
+## Código Python del código de la segunda placa
+![imagen](https://github.com/user-attachments/assets/8b8b9d81-9256-4990-ad67-b8175d122bd4)
+![imagen](https://github.com/user-attachments/assets/36d0a1b8-76af-409d-bf67-f8153df720d8)
+
+![imagen](https://github.com/user-attachments/assets/0b9ef2a0-ecb5-4eb3-b765-12450ce4fff1)
+![imagen](https://github.com/user-attachments/assets/66f73908-0401-4b3c-a531-8fc28676ebf3)
+
+![imagen](https://github.com/user-attachments/assets/1066478b-1d55-43ef-bc00-ea3e2646189f)
+
+
+
+
+
+## Diagrama en Nodered
+![imagen](https://github.com/user-attachments/assets/24af3c54-0835-4ef1-b902-bf96b89a3005)
+
+## Video Demostrativo del proyecto.
+
+
+
+## Examenes de Javascript
+![imagen](https://github.com/user-attachments/assets/b216fe42-acf8-402f-950f-3da02759e223)
+
+
+
 
 
