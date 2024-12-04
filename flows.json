@@ -1,0 +1,223 @@
+[
+    {
+        "id": "fc2b4ec7705aa657",
+        "type": "tab",
+        "label": "Forms",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6ea39fecd50dd8b5",
+        "type": "ui_switch",
+        "z": "fc2b4ec7705aa657",
+        "name": "",
+        "label": "Encender LED1",
+        "tooltip": "",
+        "group": "82ed05a2ade4a0a1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 800,
+        "wires": [
+            [
+                "425250115b5e3d1c"
+            ]
+        ]
+    },
+    {
+        "id": "425250115b5e3d1c",
+        "type": "mqtt out",
+        "z": "fc2b4ec7705aa657",
+        "name": "",
+        "topic": "kapm/led",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7d946b963b47f82f",
+        "x": 460,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "e6faee47381106b3",
+        "type": "ui_text_input",
+        "z": "fc2b4ec7705aa657",
+        "name": "",
+        "label": "Escriba su mensaje",
+        "tooltip": "",
+        "group": "82ed05a2ade4a0a1",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 690,
+        "y": 860,
+        "wires": [
+            [
+                "b325fdc28fb277b9"
+            ]
+        ]
+    },
+    {
+        "id": "e9767c56ad4bda0f",
+        "type": "mqtt out",
+        "z": "fc2b4ec7705aa657",
+        "name": "",
+        "topic": "kapm/oled",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7d946b963b47f82f",
+        "x": 1030,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "a7c977dd7b38a71e",
+        "type": "ui_button",
+        "z": "fc2b4ec7705aa657",
+        "name": "",
+        "group": "82ed05a2ade4a0a1",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enviar",
+        "tooltip": "",
+        "color": "#F00",
+        "bgcolor": "#FF0",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 650,
+        "y": 940,
+        "wires": [
+            [
+                "cb3abd0ec58ad646"
+            ]
+        ]
+    },
+    {
+        "id": "b325fdc28fb277b9",
+        "type": "function",
+        "z": "fc2b4ec7705aa657",
+        "name": "obtenermensaje",
+        "func": "global.set(\"mensaje\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb3abd0ec58ad646",
+        "type": "function",
+        "z": "fc2b4ec7705aa657",
+        "name": "enviarmensaje",
+        "func": "msg.payload=global.get(\"mensaje\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 940,
+        "wires": [
+            [
+                "e9767c56ad4bda0f"
+            ]
+        ]
+    },
+    {
+        "id": "82ed05a2ade4a0a1",
+        "type": "ui_group",
+        "name": "PIOT",
+        "tab": "25d4bdcfae454949",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d946b963b47f82f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25d4bdcfae454949",
+        "type": "ui_tab",
+        "name": "Basicos",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
