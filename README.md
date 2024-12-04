@@ -164,6 +164,9 @@ Este es el repositorio de documentación de nuestro proyecto final de IoT de Leo
 </tr>
 </table>
 
+## Prototipo
+![Sin título](https://github.com/user-attachments/assets/157d7d09-b7f6-49d2-8ea4-bef9c733849b)
+
 ## Imagen del proyecto
 
 ![Sin título](https://github.com/user-attachments/assets/a0408a98-64d8-4d09-a141-0b5ccf3ca769)
