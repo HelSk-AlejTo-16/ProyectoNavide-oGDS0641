@@ -219,12 +219,18 @@ Imagenes del código de la primera placa:
 
 ## Examenes de Javascript
 ![imagen](https://github.com/user-attachments/assets/b216fe42-acf8-402f-950f-3da02759e223)
+![Sin título](https://github.com/user-attachments/assets/c70ce9f0-dabf-4c9d-9437-243b196df223)
+
 
 
 ## Video del proyecto en pleno funcionamiento del proyecto. 
 https://drive.google.com/drive/folders/1-Dx3WQTrWNuALlekcHw3uZtqv-OO8vwD?usp=sharing
 
 ## Videos de los trabajos hechos en clase 
+https://drive.google.com/drive/folders/1uCA4PyHIDimRVjd13jMw_Ex4sR9ZE37z?usp=sharing
+
+## TikTok:
+https://vm.tiktok.com/ZMkJheyEc/
 
 
 
