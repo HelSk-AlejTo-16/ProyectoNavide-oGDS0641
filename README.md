@@ -225,6 +225,18 @@ Imagenes del código de la primera placa:
 ![Sin título](https://github.com/user-attachments/assets/c70ce9f0-dabf-4c9d-9437-243b196df223)
 
 
+## Retro alimentaciones
+Karen Anahí Padrón Martinez
+En general, aprecie mucho la dedicación y esfuerzo, pero hay algunas áreas donde creo que podría mejorar mi compañero y que, a largo plazo, le ayudaran a realizar un trabajo con mejor desempeño.Creo que podría mejorar la forma de comunicación conmigo ya que eso habria ayudado de manera significativa . Una buena comunicación nos hubiera ayudado para haber terminado el proyecto sin apuracioneses sin embargo se logro terminarlo, asi que siento que en lo unico en lo que tuvimos conflico fue de que nos comunicamos muy poco y dejamos todo al final
+Mi intención con estos comentario es ayudar a mi compañero a seguir creciendo, ya que valoro mucho su contribución .
+
+
+Leonel Alejandro Torres Pérez
+Fue muy bueno y satisfactorio trabajar con Karen, considero que tuvimos un buen trabajo de calidad, aunque siento que tuvimos problemas con la comunicación ya que ella no me comentaba muchas cosas que hacía o quería hacer, aunque como repito tuvimos esas complicaciones completamos de manera satisfactoria el trabajo. 
+
+
+
+
 
 ## Video del proyecto en pleno funcionamiento del proyecto. 
 https://drive.google.com/drive/folders/1-Dx3WQTrWNuALlekcHw3uZtqv-OO8vwD?usp=sharing
